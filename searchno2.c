@@ -12,12 +12,12 @@ int main()
 	for(i=0;i<n;i++)
 	{
 	   if(a[i]==num)
-       {
-       	flag=1;
-       	break;
-	   }	
+           {
+             flag=1;
+       	     break;
+           }	
 	
-	}
+        }
 	if(flag==1)
 	  printf("number is found");
     else 
